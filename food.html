@@ -2,14 +2,11 @@
 layout: post
 title: food
 ---
-
 <main>
   <h1 class="title-food">Food</h1>
-
   <section class="container">
     {% for food in site.posts %}
-      {% if food.categories contains "food"
-      %}
+      {% if food.categories contains "food" %}
         <div class="food-info">
           <div>
             <h3>{{ food.title }} - </h3>

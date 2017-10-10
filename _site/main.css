@@ -12,6 +12,7 @@ a:hover {
 
 html, body {
   font-family: 'Roboto Slab', serif;
+  height: 100%;
   line-height: 1.5;
   margin: 0;
 }
@@ -24,7 +25,8 @@ h1 {
 
 
 .restaurant-pic {
-  background-image: url('image/seed.jpg')
+  background-image: url('image/seed.jpg');
+  height: 100%;
 }
 
 
@@ -83,10 +85,6 @@ section.sidebar ul {
 @media only screen and (min-width: 961px) {
   body {
     display: flex;
-  }
-
-  html, body {
-    height: 100%;
   }
 
   main {
