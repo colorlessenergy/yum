@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color ease 1s;
+}
+
+a:hover {
+  color: #61258e;
+}
+
+html, body {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+
+.restaurant-pic {
+  background-image: url('image/seed.jpg')
+}
+
+
+section.sidebar {
+  align-items: center;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 0;
+}
+
+section.sidebar p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+section.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-text {
+  text-align: center;
+}
+
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .food-info {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.container .food-info div {
+  align-items: baseline;
+  display: flex;
+}
+
+.container .sub {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 16px 5px;
+}
+
+.title-food {
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 961px) {
+  body {
+    display: flex;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  section.sidebar {
+    justify-content: center;
+    min-width: 320px;
+  }
+}
+

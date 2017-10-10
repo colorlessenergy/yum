@@ -1,0 +1,23 @@
+---
+layout: post
+title: drink
+---
+
+<main>
+  <h1 class="title-food">Drinks</h1>
+
+  <section class="container">
+    {% for drink in site.posts %}
+      {% if drink.categories contains "drink"
+      %}
+        <div class="food-info">
+          <div>
+            <h3>{{ drink.title }} - </h3>
+            <p class="sub"> {{ drink.subtitle }}</p>
+          </div>
+          <p>${{ drink.price }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </section>
+</main>

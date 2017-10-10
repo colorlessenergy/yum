@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color ease 1s;
+}
+
+a:hover {
+  color: #61258e;
+}
+
+html, body {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+
+.restaurant-pic {
+  background-image: url('image/seed.jpg')
+}

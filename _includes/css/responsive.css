@@ -1,0 +1,18 @@
+@media only screen and (min-width: 961px) {
+  body {
+    display: flex;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  section.sidebar {
+    justify-content: center;
+    min-width: 320px;
+  }
+}
