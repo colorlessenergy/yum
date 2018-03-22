@@ -26,5 +26,7 @@ h1 {
 
 .restaurant-pic {
   background-image: url('image/seed.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
 }
